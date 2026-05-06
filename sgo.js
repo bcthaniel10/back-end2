@@ -40,11 +40,15 @@ const total = calcularPontuacaoTotal(pontosDoJogador);
 console.log("Pontuação final; ", total);
 
 const missoes = [
-    {nome: "Salvar a aldeia", status: "concluida"},
+    {nome: "Salvar a aldeia", status: "concluída"},
     {nome: "encontrar o mapa", status: "em andamento"},
     {nome: "Derrota o chefão", status: "falhou"},
-    {nome: "coleta recursos", status: "concluida"}
+    {nome: "coleta recursos", status: "concluída"}
 ];
 
+const concluidas = filtrarMissoesConcluidas(missoes)
+console.log("missões concluida" , concluidas); 
 
-console.log(missoes);
+const mochila = ["mapa", "lanterna"];
+const moochilaAtualizada = atualizarInventario(mochila, "pegar", "Bússula");
+console.log("mochila após pegar: ", mochilaAtualizada);
