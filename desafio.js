@@ -15,31 +15,23 @@ Curso: ${curso}
 Matrícula: ${matricula}
 Status: ${estaAtivo ? "Ativo" : "Inativo"}`);
 
-// Criando as duas variáveis numéricas
 let numero1 = 45;
 let numero2 = 55;
 
-// Calculando a soma
 let soma = numero1 + numero2;
 
-// Exibindo o resultado no console
 console.log(`A soma de ${numero1} e ${numero2} é igual a ${soma}`);
 
-// 1. Declarando as notas da prova e do trabalho
 let notaProva = 8.5;
 let notaTrabalho = 7.0;
 
-// 2. Calculando a média final
 let mediaFinal = (notaProva + notaTrabalho) / 2;
 
-// 3. Descobrindo a maior e a menor nota usando funções nativas do JavaScript (Math)
 let maiorNota = Math.max(notaProva, notaTrabalho);
 let menorNota = Math.min(notaProva, notaTrabalho);
 
-// 4. Calculando a diferença entre a maior e a menor nota
 let diferenca = maiorNota - menorNota;
 
-// 5. Exibindo os resultados no console
 console.log(`Nota da Prova: ${notaProva}`);
 console.log(`Nota do Trabalho: ${notaTrabalho}`);
 console.log("-----------------------");
