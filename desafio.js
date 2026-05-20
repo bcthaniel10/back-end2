@@ -39,3 +39,9 @@ console.log(`Média Final: ${mediaFinal.toFixed(1)}`);
 console.log(`Maior Nota: ${maiorNota}`);
 console.log(`Menor Nota: ${menorNota}`);
 console.log(`Diferença entre as notas: ${diferenca.toFixed(1)}`);
+
+let frequencia = 80; 
+let aprovado = mediaFinal >= 6 && frequencia > 75;
+
+console.log(`Frequência: ${frequencia}%`);
+console.log(`Status de Aprovação: ${aprovado ? "Aprovado(a)" : "Reprovado(a)"}`);
